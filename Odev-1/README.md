@@ -20,7 +20,7 @@
 2.  Turlar Sayfası; 
     1.  Aynı şekilde **header** ve **nav** bulunur.
     2. **Section** kısmında 6 adet **article** ile turlar hakkında istenen detaylı bilgiler bulunur. Anasayfadan bu içeriklere direkt olarak başlıklara yönlendirme yapılabilir.
-    3. **Footer**
+3.  **Footer**
 
 ---
 
