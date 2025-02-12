@@ -20,14 +20,10 @@
 2.  ***post.html:*** Turlar Sayfası; 
     1.  Aynı şekilde **header** ve **nav** bulunur.
     2. **Section** kısmında 6 adet **article** ile turlar hakkında istenen detaylı bilgiler bulunur. Anasayfadan bu içeriklere direkt olarak başlıklara yönlendirme yapılabilir.
-<<<<<<< HEAD
     3. **Footer**
 3.  ***style.css:*** index.html ve post.html için yazılın CSS özellikleri bu dosyada derlenmiştir. 
 4. ***img:*** projede kullanılan blog resimlerinin bulunduğu klasör.
-=======
-    3.  **Footer**
 
->>>>>>> 356f25d107cf321148b978923009ae531888951f
 ---
 
 ## :computer: Kullanım
