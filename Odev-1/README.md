@@ -7,7 +7,7 @@
 
 ## 📜 Sayfa Yapısı
 
-**Klasörler;**
+:open_file_folder: **Klasörler;**
 * *index.html*
 * *post.html*
 * *style.css*
@@ -42,4 +42,12 @@
 **CSS:**
 *  Flexbox
 
+---
 
+## :paperclip: Sayfa Çıktıları
+### Anasayfa
+![Homepage](./img-page/homepage.png)
+
+
+### Turlar
+![Post](./img-page/post-page.png)
