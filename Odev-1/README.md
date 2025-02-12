@@ -1,4 +1,4 @@
-#  Blog Sitesi Projesi | Istanbul Tour
+# :world_map: Blog Sitesi Projesi | Istanbul Tour
 
 * Bu proje, Patika Frontend Bootcamp'i için oluşturulan **Hafta-2 / Ödev-1 / Blog Sitesi** projesidir.
 * **CSS** alıştırması için bir pratik projesidir.
