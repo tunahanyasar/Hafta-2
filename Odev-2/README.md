@@ -33,7 +33,7 @@
 ---
 ## :star2: Özellikler
 
-1. Alıntı ve yazarın resmi ince bir satır halinde gözükürken mouse **:hover** özelliği ile gerçekleştirilen CSS yapısı;
+1. Yazarın sözünü tasarıma yansıtmak için gözlerinin olduğu hizada kendi alıntsını verdim. Alıntı ve yazarın resmi ince bir satır halinde gözükürken mouse **:hover** özelliği ile gerçekleştirilen CSS yapısı;
     ![Image-Non](./img-page/image-non.png)
             *görsel-1*
 
