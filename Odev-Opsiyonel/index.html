@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d2389ef020.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Kayıt Formu</title>
+  </head>
+
+  <body>
+    <!-- Form Div | Start -->
+    <div class="form-field">
+      <h1 id="title">Survey Form For CSS Practice</h1>
+      <!-- Form | Start -->
+      <form action="#" id="survey-form">
+        <!-- Full Name -->
+        <div>
+          <fieldset>
+            <legend><i class="fa-solid fa-user"></i>Full Name</legend>
+            <input type="text" id="fname" required autofocus/>
+          </fieldset>
+        </div>
+        <!-- Email -->
+        <div>
+          <fieldset>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" name="email" id="email" placeholder="Mail" required/>
+          </fieldset>
+        </div>
+        <!-- Age -->
+        <div>
+          <fieldset>
+            <i class="fa-solid fa-cake-candles"></i>
+            <input
+              type="number"
+              name="bdate"
+              id="number"
+              pattern="\d{2}"
+              maxlength="2"
+              placeholder="Age"
+              min="18"
+              max="99" required
+            />
+          </fieldset>
+        </div>
+        <!-- Gender -->
+        <div class="select-gender">
+          <label for="dropdown">Select Gender</label>
+          <select name="gender" id="dropdown" required>
+            <option value="" selected disabled>Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <!-- Radio -->
+        <div class="radio-div">
+          <h3>Where did you hear us?</h3>
+          <div>
+            <input type="radio" name="ask" id="instagram" />
+            <label for="instagram">Instagram</label>
+          </div>
+          <div>
+            <input type="radio" name="ask" id="linkedin" />
+            <label for="linkedin">Linkedin</label>
+          </div>
+        </div>
+        <!-- Checkbox -->
+        <div class="checkbox-div">
+          <div>
+            <input type="checkbox" name="terms" id="terms" required />
+            <label for="terms">Terms of service</label>
+          </div>
+          <div>
+            <input type="checkbox" name="subs" id="subs" required />
+            <label for="subs">Subscribe for news</label>
+          </div>
+        </div>
+        <!-- Textarea -->
+        <div>
+          <textarea
+            name="suggestions"
+            id="suggestions"
+            placeholder="Suggestions..."
+          ></textarea>
+        </div>
+        <!-- Sign up Button -->
+        <div class="sign-up">
+          <button id="submit">Sign Up</button>
+        </div>
+      </form>
+      <!-- Form | End -->
+    </div>
+    <!-- Form Div | End -->
+  </body>
+</html>

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #A4415D;
+}
+
+/* HEADER */
+h1{
+   color: #C2CFE0;
+   width: 20%;
+   text-align: center;
+   line-height: 1.5em;
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+
+/* FORM FIELD DIV */
+.form-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* FORM TAG */
+form{
+    background-color: #34475E;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* GLOABAL FIELDSET STYLE */
+fieldset{
+    border: 1px #B2ECEE solid;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+/* GLOBAL PLACEHOLDER STYLE */
+::placeholder{
+    color: #C2CFE0;
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+/* GLOBAL INPUT STYLE */
+input{
+    background-color: #34475E;
+    border: none;
+    padding: 10px 30px 10px 10px ;
+    outline: none;
+    font-size: 20px;
+    color: #C2CFE0;
+    width: max-content;
+}
+
+/* GLOBAL FONTICON STYLE */
+i{
+    color: #C2CFE0;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+/* Full Name Part */
+legend{
+    color: #C2CFE0;
+    font-weight: bold;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 0 15px 0 5px;
+}
+#fname{
+    width: 100%;
+    padding-left: 10px;
+    /* ismin baş harflerini büyük yazar */
+    text-transform: capitalize; 
+}
+
+/* SELECT GENDER - DROPDOWN */
+.select-gender{
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: #5BCBBF;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid 2px #B2ECEE ;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.select-gender label{
+ margin-left: auto;
+}
+.select-gender select{
+    margin-left: auto;
+    width: 6%; 
+    padding-right: px;
+    direction: rtl;
+    border: none;
+    background-color: #34475E;
+    outline: none;
+    color: #5BCBBF;
+    font-size: 20px;
+}
+
+/* RADIO STYLE */
+.radio-div{
+display: flex;
+flex-direction: column;
+gap: 10px   ;
+}
+.radio-div h3{
+    color: #C2CFE0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.radio-div label{
+    color: #C2CFE0;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+/* CHECKBOX STYLE */
+.checkbox-div{
+   display: flex; 
+   gap: 10px;
+   justify-content: space-between;
+}
+.checkbox-div label{
+    color: #C2CFE0;
+    font-weight: bold;
+}
+
+/* TEXTAREA STYLE */
+#suggestions{
+    width: 100%;
+    background-color: #34475E;
+    outline: none;
+    border: 2px solid #5BCBBF;
+    height: 70px;
+    /* textarea yeniden boyutlandırması kaldırıldı */
+    resize: none;
+    color: #C2CFE0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#suggestions::placeholder{
+    padding: 10px;
+}
+
+/* BUTTON */
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.sign-up button{
+    color: #C2CFE0;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #34475E;
+    cursor: pointer;
+    font-size: 20px;
+}
