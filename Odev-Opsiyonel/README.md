@@ -23,7 +23,7 @@
 1. ***index.html***: Websitesi açıldığında Kayıt Formu karşılamaktadır. **one-page website** olarak tasarlanmıştır. 
     1. Kayıt formunda **h1**, **form**, **fieldset**,**input:text | number | email**, **dropdown**, **radio**, **checkbox**, **textarea** ve **button** bulunur.
 3.  ***style.css:*** index.html için yazılan CSS özellikleri bu dosyada derlenmiştir. 
-4. ***img-page:*** projenin sayfa çıktısınun bulunduğu klasör.
+4. ***img-page:*** projenin sayfa çıktısının bulunduğu klasör.
 
 ---
 ## :star2: Özellikler
